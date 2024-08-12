@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Service Details - Elegance Pack Solutions</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .pouch-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around; /* Added to space out the cards evenly */
+}
+
+.pouch-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  width: 200px; /* Fixed width */
+  height: 300px; /* Fixed height */
+}
+
+.pouch-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire card */
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.pouch-card:hover img {
+  transform: scale(1.1);
+}
+
+.pouch-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.pouch-gallery img {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.pouch-gallery img:nth-child(1) { animation-delay: 0.2s; }
+.pouch-gallery img:nth-child(2) { animation-delay: 0.4s; }
+.pouch-gallery img:nth-child(3) { animation-delay: 0.6s; }
+.pouch-gallery img:nth-child(4) { animation-delay: 0.8s; }
+
+  </style>
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/logo.png" alt="">
+        <h1 class="sitename">Elegance Pack Solutions</h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="index.html#team">Team</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Service Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Service Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="services-list">
+              <a href="#" class="active">Common Pouches (1kg)</a>
+              <a href="#">Common Bags (25kg and 50kg)</a>
+              <a href="#">Without Cylinder Poly Pouches</a>
+            </div>
+
+            <h4>Top-Quality Packaging Solutions</h4>
+            <p>We offer a variety of pouches designed to meet the needs of different industries with the highest standards of quality and durability.</p>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <div class="pouch-gallery">
+              <div class="pouch-card">
+                <img src="assets/img/fertilizers/image.png" alt="1kg Pouch">
+              </div>
+              <div class="pouch-card">
+                <img src="assets/img/fertilizers/image copy 2.png" alt="5kg Pouch">
+              </div>
+              <div class="pouch-card">
+                <img src="assets/img/fertilizers/image copy 3.png" alt="10kg Pouch">
+              </div>
+              <div class="pouch-card">
+                <img src="assets/img/fertilizers/image copy.png" alt="25kg Pouch">
+              </div>
+              <div class="pouch-card">
+                <img src="assets/img/fertilizers/image copy 4.png" alt="25kg Pouch">
+              </div>
+              <div class="pouch-card">
+                <img src="assets/img/fertilizers/image copy 5.png" alt="25kg Pouch">
+              </div>
+              <div class="pouch-card">
+                <img src="assets/img/fertilizers/image copy 6.png" alt="25kg Pouch">
+              </div>
+              <div class="pouch-card">
+                <img src="assets/img/fertilizers/image copy 7.png" alt="25kg Pouch">
+              </div>
+              <div class="pouch-card">
+                <img src="assets/img/fertilizers/image copy 8.png" alt="25kg Pouch">
+              </div>
+            </div>
+            <br>
+            <h3>Innovative Packaging for Every Need</h3>
+            <p>
+              Our packaging pouches come in various sizes, including 1kg, 5kg, 10kg, and 25kg, each crafted with premium materials and cutting-edge technology to ensure your products are well-protected and visually appealing.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>High durability and strength</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Attractive design and finish</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Customizable to your brand’s needs</span></li>
+            </ul>
+            <p>
+              Our commitment to quality and customer satisfaction has made us a trusted name in the packaging industry. Let us help you present your products in the best possible way.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Service Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Elegance Pcak Solutions</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Onyx Business, Tilekar Nagar</p>
+            <p>Pune, Maharashtra 411048</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+91 88307 27201</span></p>
+            <p><strong>Email:</strong> <span>elegancepacksolution23@gmail.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#hero">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#about">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="index.html#services">Services</a></li>
+          </ul>
+        </div>
+
+        
+      </div>
+    </div>
+
+    <div class="container-fluid py-4 footer-bottom text-center position-relative">
+      <div class="copyright">
+        &copy; 2024 <strong><span>Elegance Pack Solutions</span></strong>. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
